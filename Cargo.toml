@@ -1,0 +1,16 @@
+[package]
+name = "counter_iced"
+version = "2024.1126.1149"
+authors = ["bestia.dev"]
+homepage = "https://bestia.dev"
+edition = "2021"
+description = "counter GUI with iced"
+repository = "https://github.com/bestia-dev/counter_iced"
+readme = "README.md"
+license = "MIT"
+keywords = ["tutorial","iced","rust","gui"]
+categories = ["gui"]
+publish = false
+
+[dependencies]
+iced = "0.13.1"
