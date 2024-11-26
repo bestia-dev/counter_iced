@@ -5,7 +5,12 @@ use iced::window;
 use iced::Center;
 
 pub fn main() -> iced::Result {
-    iced::run("counter_iced", Counter::update, Counter::view)
+    iced::application("counter_iced", Counter::update, Counter::view)
+        .window(window::Settings {
+            size: iced::Size::new(400.0, 300.0),
+            ..Default::default()
+        })
+        .run()
 }
 
 #[derive(Default)]
@@ -32,11 +37,6 @@ impl Counter {
     }
 
     fn view(&self) -> Column<Message> {
-        window::Settings {
-            size: iced::Size::new(400.0, 400.0),
-            ..Default::default()
-        };
-
         column![
             button("Increment").on_press(Message::Increment),
             text(self.value).size(50),

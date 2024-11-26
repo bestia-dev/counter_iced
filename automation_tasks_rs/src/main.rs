@@ -399,10 +399,12 @@ fn task_github_new_release() {
         {YELLOW}Now uploading release asset. This can take some time if the files are big. Wait...{RESET}
     "
     );
-    // compress files tar.gz
-    let tar_name = format!("{repo_name}-{tag_name_version}-x86_64-unknown-linux-gnu.tar.gz");
+    // Install zip into the container from the parent WSL:
+    // podman exec --user=root crustde_vscode_cnt   apt-get install -y zip
+    // compress file with zip because it is Windows
+    let tar_name = format!("{repo_name}-{tag_name_version}-x86_64-pc-windows-gnu.zip");
 
-    cl::ShellCommandLimitedDoubleQuotesSanitizer::new(r#"tar -zcvf "{tar_name_sanitized_for_double_quote}" "target/release/{repo_name_sanitized_for_double_quote}" "#)
+    cl::ShellCommandLimitedDoubleQuotesSanitizer::new(r#"zip "{tar_name_sanitized_for_double_quote}" "target/x86_64-pc-windows-gnu/release/{repo_name_sanitized_for_double_quote}.exe" "#)
         .unwrap_or_else(|e| panic!("{e}"))
         .arg("{tar_name_sanitized_for_double_quote}", &tar_name)
         .unwrap_or_else(|e| panic!("{e}"))
