@@ -648,7 +648,7 @@ dependencies = [
 
 [[package]]
 name = "counter_iced"
-version = "2024.1126.1149"
+version = "2024.1126.1251"
 dependencies = [
  "iced",
 ]

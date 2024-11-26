@@ -5,7 +5,7 @@
 [//]: # (auto_cargo_toml_to_md start)
 
 **counter GUI with iced**  
-***version: 2024.1126.1149 date: 2024-11-26 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/counter_iced)***
+***version: 2024.1126.1251 date: 2024-11-26 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/counter_iced)***
 
  ![tutorial](https://img.shields.io/badge/tutorial-orange)
  ![iced](https://img.shields.io/badge/iced-orange)
@@ -32,10 +32,14 @@ Copy the exe file from the container 'crustde' to win folder. Run in windows git
 ```bash
 scp rustdevuser@crustde:/home/rustdevuser/rustprojects/counter_iced/target/x86_64-pc-windows-gnu/release/counter_iced.exe /c/Users/Luciano/rustprojects/counter_iced/
 
-# then run the local_list with the path like this in git-bash
+# then run in git-bash
 cd ~/rustprojects/counter_iced
 ./counter_iced.exe
 ```
+
+## TODO
+
+- how to define the initial size of the window? Now is too big.
 
 ## Open-source and free as a beer
 

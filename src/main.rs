@@ -1,6 +1,7 @@
 #![windows_subsystem = "windows"]
 
 use iced::widget::{button, column, text, Column};
+use iced::window;
 use iced::Center;
 
 pub fn main() -> iced::Result {
@@ -31,6 +32,11 @@ impl Counter {
     }
 
     fn view(&self) -> Column<Message> {
+        window::Settings {
+            size: iced::Size::new(400.0, 400.0),
+            ..Default::default()
+        };
+
         column![
             button("Increment").on_press(Message::Increment),
             text(self.value).size(50),
