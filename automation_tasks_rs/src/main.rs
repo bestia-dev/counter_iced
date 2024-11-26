@@ -342,7 +342,8 @@ fn task_commit_and_push(arg_2: Option<String>) {
 
     println!(
         r#"
-
+    {YELLOW}After `cargo auto commit_and_push`. If ok then {RESET}
+{GREEN}cargo auto github_new_release{RESET}
 "#
     );
 }
