@@ -4,7 +4,7 @@
 
 [//]: # (auto_cargo_toml_to_md start)
 
-**counter GUI with iced for windows**  
+**counter GUI with iced**  
 ***version: 2024.1126.1149 date: 2024-11-26 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/counter_iced)***
 
  ![tutorial](https://img.shields.io/badge/tutorial-orange)
