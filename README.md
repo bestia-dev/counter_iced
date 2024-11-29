@@ -25,11 +25,12 @@ My projects on GitHub are more like a tutorial than a finished product: [bestia-
 A simple test program that creates a simple GUI for Windows with the crate `iced`.
 
 This is an "retained mode" GUI and I will use that in my future works.
-The resulting exe is heavier than with egui "immediate mode", but the exe looks like a proper GUI program. "Iced" is used to create the Cosmic Desktop of System76 and it looks nice. 
+The resulting exe is heavier than with egui "immediate mode", but the exe looks like a proper GUI program. "Iced" is used to create the Cosmic Desktop of System76 and it looks nice.
 
 ## Cross compile to windows
 
-On my machine I have Windows11 with WSL/Debian. I will cross compile to Windows, copy the exe file with `scp` and run it on Windows.  
+On my machine I have Windows11 with WSL/Debian. I will cross compile to Windows, copy the exe file with `scp` and run it on Windows. 
+
 I use `cargo-auto` for automation of the build process and to commit to GitHub. Just run `cargo auto` and follow the instructions. To work with GitHub it will need the Personal Access Token from <https://github.com/settings/tokens>.  
 
 Copy the exe file from the container 'crustde' to win folder. Run in windows git-bash:
