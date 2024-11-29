@@ -1,3 +1,7 @@
+// counter_iced/src/main.rs
+
+#![doc=include_str!("../README.md")]
+// this will avoid Windows to show the terminal when running the exe
 #![windows_subsystem = "windows"]
 
 use iced::widget::{button, column, text, Column};
