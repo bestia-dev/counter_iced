@@ -8,7 +8,7 @@ description = "counter GUI with iced"
 repository = "https://github.com/bestia-dev/counter_iced"
 readme = "README.md"
 license = "MIT"
-keywords = ["tutorial","iced","rust","gui"]
+keywords = ["maintained", "ready-for-use", "tutorial","iced","rust","gui"]
 categories = ["gui"]
 publish = false
 
