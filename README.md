@@ -17,7 +17,7 @@
 
 [//]: # (auto_cargo_toml_to_md end)
 
- ![status](https://img.shields.io/badge/tutorial-yellow)
+ ![License](https://img.shields.io/badge/license-MIT-blue.svg)
  ![counter_iced](https://bestia.dev/webpage_hit_counter/get_svg_image/748236206.svg)
 
 Hashtags: #tutorial #iced #rust #gui  
