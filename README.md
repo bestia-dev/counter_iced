@@ -6,10 +6,10 @@
 [//]: # (auto_cargo_toml_to_md start)
 
 **counter GUI with iced**  
-***version: 2024.1129.1444 date: 2024-11-29 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/counter_iced)***
+***version: 2025.331.1335 date: 2025-03-31 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/counter_iced)***
 
  ![maintained](https://img.shields.io/badge/maintained-green)
- ![ready_for_use](https://img.shields.io/badge/ready_for_use-green)
+ ![ready-for-use](https://img.shields.io/badge/ready_for_use-green)
  ![tutorial](https://img.shields.io/badge/tutorial-orange)
  ![iced](https://img.shields.io/badge/iced-orange)
  ![rust](https://img.shields.io/badge/rust-orange)
