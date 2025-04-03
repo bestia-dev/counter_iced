@@ -1,6 +1,6 @@
 [package]
 name = "counter_iced"
-version = "2025.331.1335"
+version = "2025.403.1022"
 authors = ["bestia.dev"]
 homepage = "https://bestia.dev"
 edition = "2021"
