@@ -8,6 +8,7 @@ description = "counter GUI with iced"
 repository = "https://github.com/bestia-dev/counter_iced"
 readme = "README.md"
 license = "MIT"
+# Keyword must be only one word: lowercase letters, hyphens(-) or numbers, less then 35 characters, at most 5 keywords per crate
 keywords = ["maintained", "ready-for-use", "tutorial","iced","rust","gui"]
 categories = ["gui"]
 publish = false
